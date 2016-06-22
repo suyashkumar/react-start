@@ -5,6 +5,8 @@
 npm init
 npm install --save react react-dom && npm install --save-dev html-webpack-plugin webpack webpack-dev-server babel-{core,loader} babel-preset-react
 mkdir app
+touch app/index.html
+touch app/index.js
 mkdir dist 
 wget https://raw.githubusercontent.com/suyashkumar/react-start/master/webpack.config.js # get webpack config
 wget https://raw.githubusercontent.com/suyashkumar/react-start/master/.babelrc # get .babelrc
